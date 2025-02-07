@@ -1,0 +1,37 @@
+# 기존 내용 유지
+# 바이너리 파일
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 테스트 바이너리
+*.test
+
+# 커버리지 파일
+*.out
+
+# 의존성 디렉토리
+vendor/
+node_modules/
+
+# IDE 설정
+.idea/
+.vscode/
+
+# 빌드 결과물
+bin/
+dist/
+build/
+
+# 환경 설정 파일
+.env
+.env.local
+
+# 로그 파일
+*.log
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db 
